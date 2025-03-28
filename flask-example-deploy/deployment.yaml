@@ -18,5 +18,5 @@ spec:
         app: flask
     spec:
       containers:
-      - image: gasbugs21c/my-flask-app
+      - image: nginx    #gasbugs21c/my-flask-app->ngnix로 고쳐보자
         name: flask-example
